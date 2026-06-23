@@ -2,8 +2,7 @@
 import os
 import sys
 
-# Forzar a Python a buscar módulos locales correctamente desde la raíz del proyecto
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
 
 import pyray as pr
 from src.config import current_cfg, FPS
