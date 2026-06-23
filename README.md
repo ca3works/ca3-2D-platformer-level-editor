@@ -12,5 +12,6 @@ Please use the python script if there's any issue with the binaries.
 Press F5 to save the level in the /levels/ subfolder, and F6 to load the saved file.
 
 Add tiles icons to subfolders inside /assets/ as 32x32 pngs. 
+Replace background.png inside /assets/ with your current level reference.png
 
 <img width="1275" height="741" alt="cover" src="https://github.com/user-attachments/assets/83b3a406-681f-4674-b967-c4e47a495e28" />
